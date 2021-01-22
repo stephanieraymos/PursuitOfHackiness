@@ -20,10 +20,10 @@ const Styles = styled.div`
   }
 `;
 
-export const NavigationBar = () => (
+export const Navigation = () => (
   <Styles>
     <Navbar expand="lg">
-      <Navbar.Brand href="/">Pursuit of Hackiness</Navbar.Brand>
+      <Navbar.Brand href="/">POH</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Form className="form-center">
         <FormControl type="text" placeholder="Search" className="" />
