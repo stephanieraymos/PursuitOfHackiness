@@ -15,5 +15,12 @@
     padding-top: 20px;
 }
 
+.button {
+    text-transform: capitalize;
+    background-color: rgb(175, 231, 241);
+    padding: 8px;
+    margin: 10px;
+}
+
 
 

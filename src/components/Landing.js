@@ -44,6 +44,8 @@ function Landing() {
             simulate a real interview. The interviewer will ask you questions.
             If you receive a passing score you get a job offer.
           </p>
+
+          <button className="button">Choose your character</button>
         </div>
       </GridWrapper>
     </div>
