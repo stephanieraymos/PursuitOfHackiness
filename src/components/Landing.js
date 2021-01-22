@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Character from './characters/Character'
 
 function Landing() {
   const GridWrapper = styled.div`
@@ -45,7 +46,7 @@ function Landing() {
             If you receive a passing score you get a job offer.
           </p>
 
-          <button className="button">Choose your character</button>
+          <button className="button" onClick={<Character />}>Choose your character</button>
         </div>
       </GridWrapper>
     </div>
