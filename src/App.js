@@ -2,7 +2,7 @@ import { useState } from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Navigation } from "./components/Navigation";
-import GlobalStyle from "./styles/Global";
+import GlobalStyles from "./styles/Global";
 import Landing from "./components/Landing";
 import Home from "./components/Home";
 import Bootcamp from "./components/Bootcamp";
@@ -21,6 +21,7 @@ function App() {
           <Route path="/Career" component={Career} />
         </Switch>
       </Router>
+      <GlobalStyles />
     </>
   );
 }

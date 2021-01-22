@@ -19,6 +19,8 @@ const GlobalStyles = createGlobalStyle`
   body {
     box-sizing: border-box;
     font-family: 'Anton', sans-serif;
+    background-color: #ffe18f;
+
   }
 `;
 

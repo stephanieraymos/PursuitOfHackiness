@@ -26,7 +26,7 @@ function Landing() {
             Developer. The game begins as your character decides their learning
             path, and ends with them landing a job if they're ready.
           </p>
-          <h1>How it works</h1>
+          <h1 className="land-headings">How it works</h1>
           <h5>INITIALIZATION</h5>
           <p>
             You'll start at home, deciding which language you'd like to learn.

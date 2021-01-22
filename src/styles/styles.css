@@ -3,6 +3,12 @@
     display: block; 
     margin: 0 auto;
     width: 50%; 
-    padding-top: 20px;
+    padding-top: 10px;
     border-bottom: 1px solid black;
 }
+
+.land-headings {
+    padding-top: 20px;
+}
+
+
