@@ -12,14 +12,10 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: inherit;
   }
 
-  html {
-    font-size: 60%;
-  }
-
   body {
     box-sizing: border-box;
     font-family: 'Anton', sans-serif;
-    background-color: #ffe18f;
+    background-color: #9FFFCB;
 
   }
 `;

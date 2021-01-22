@@ -4,10 +4,9 @@ import styled from "styled-components";
 function Landing() {
   const GridWrapper = styled.div`
     display: grid;
-    grid-gap: 15px;
     margin-top: 1em;
-    margin-left: 6em;
-    margin-right: 6em;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: minmax(25px, auto);
 
@@ -27,7 +26,7 @@ function Landing() {
             path, and ends with them landing a job if they're ready.
           </p>
           <h1 className="land-headings">How it works</h1>
-          <h5>INITIALIZATION</h5>
+          <h5 className="p-top">INITIALIZATION</h5>
           <p>
             You'll start at home, deciding which language you'd like to learn.
             You can add more languages later in the game once you've grasped the
