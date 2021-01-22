@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components';
 
 const GridWrapper = styled.div`
   display: grid;
@@ -11,15 +11,9 @@ const GridWrapper = styled.div`
   grid-auto-rows: minmax(25px, auto);
 `;
 
-function Landing() {
-  return (
-    <div>
-      <GridWrapper>
-        <p>About the game</p>
-        <p>How it works</p>
-      </GridWrapper>
-    </div>
-  );
-}
-
-export default Landing;
+export default Landing = (props) => (
+  <GridWrapper>
+    <p>About the game</p>
+    <p>How it works</p>
+  </GridWrapper>
+)
