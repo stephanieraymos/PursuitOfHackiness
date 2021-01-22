@@ -21,3 +21,5 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Anton', sans-serif;
   }
 `;
+
+export default GlobalStyles;
