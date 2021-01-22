@@ -1,26 +1,27 @@
 .land-headings:after {
-    content: "";
-    display: block; 
-    margin: 0 auto;
-    width: 50%; 
-    padding-top: 10px;
-    border-bottom: 1px solid black;
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 10px;
+  border-bottom: 1px solid black;
 }
 
 .land-headings {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .p-top {
-    padding-top: 20px;
+  padding-top: 20px;
+}
+
+.p-bottom {
+  padding-bottom: 20px;
 }
 
 .button {
-    text-transform: capitalize;
-    background-color: rgb(175, 231, 241);
-    padding: 8px;
-    margin: 10px;
+  text-transform: capitalize;
+  background-color: rgb(175, 231, 241);
+  padding: 8px;
+  color: black;
 }
-
-
-

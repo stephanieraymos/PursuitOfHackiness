@@ -29,7 +29,7 @@ function Landing() {
           </p>
           <h1 className="land-headings">How it works</h1>
           <h5 className="p-top">INITIALIZATION</h5>
-          <p>
+          <p className="p-bottom">
             You'll start at home, deciding which language you'd like to learn.
             You can add more languages later in the game once you've grasped the
             main concepts of your current language or framework. You'll be asked
@@ -47,7 +47,7 @@ function Landing() {
             If you receive a passing score you get a job offer.
           </p>
 
-          <Link to="./Characters.js" className="button">Choose your character</Link>
+          <Link to="./characters/Characters.js" className="button">Choose your character</Link>
         </div>
       </GridWrapper>
     </div>
