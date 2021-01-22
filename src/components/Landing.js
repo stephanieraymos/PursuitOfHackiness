@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 import Character from './characters/Character'
 
 function Landing() {
@@ -46,7 +47,7 @@ function Landing() {
             If you receive a passing score you get a job offer.
           </p>
 
-          <button className="button" onClick={<Character />}>Choose your character</button>
+          <Link to="./Characters.js" className="button">Choose your character</Link>
         </div>
       </GridWrapper>
     </div>
