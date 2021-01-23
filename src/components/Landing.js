@@ -47,7 +47,7 @@ function Landing() {
             If you receive a passing score you get a job offer.
           </p>
 
-          <Link to="./characters/Characters.js" className="button">Choose your character</Link>
+          <Link to="./characters/Character.js" className="button">Choose your character</Link>
         </div>
       </GridWrapper>
     </div>
