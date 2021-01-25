@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Navigation } from "./components/Navigation";
@@ -9,11 +8,11 @@ import Bootcamp from "./components/Bootcamp";
 import Career from "./components/Career";
 
 function App() {
-
   return (
     <>
       <Router>
         <Navigation />
+        <Landing />
         <Switch>
           <Route path="/Landing" component={Landing} />
           <Route exact path="/Home" component={Home} />

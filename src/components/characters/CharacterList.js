@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Character = ({ characters }) => {
+const List = ({ characters }) => {
   return (
     <>
-      {people.map((character) => {
+      {characters.map((character) => {
         const { id, name, image } = character;
         return <article key={id} className="character">
           <img src={image} alt={name} />
@@ -16,4 +16,4 @@ const Character = ({ characters }) => {
   );
 };
 
-export default Character;
+export default List;
