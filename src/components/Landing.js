@@ -1,30 +1,17 @@
-import  React, { useState, useEffect } from "react";
-import Character from "./characters/Character"
+import React, { useState, useEffect } from "react";
+import Character from "./characters/Character";
 import styled from "styled-components";
 
-const url = 'https://pohdata.netlify.app/characters.json';
-console.log (url)
-
-// const newChar = char.map((char) => {
-//   return (
-//     <Card key={char.id}>
-//       <Card.Body>
-//         <Card.Title>{char.name}</Card.Title>
-//         <Card.Image>{char.image}</Card.Image>
-//       </Card.Body>
-//     </Card>
-//   );
-// });
-
-// console.log(char.name);
+const url = "https://pohdata.netlify.app/characters.json";
 
 function Landing() {
-
   const openCharacters = () => {
-    return <Character
-    characters = {characters}
-    />
-  }
+    return (
+      <main>
+        <Character characters={characters} />
+      </main>
+    );
+  };
 
   const GridWrapper = styled.div`
     display: grid;
@@ -42,19 +29,18 @@ function Landing() {
   const [characters, setCharacters] = useState([]);
 
   const fetchCharacters = async () => {
-    const response = await fetch(url);	
-    const characters = await response.json();	    
     try {
+      const response = await fetch(url);
+      const characters = await response.json();
       setCharacters(characters);
     } catch (error) {
-      console.log(error)
+      console.log(error);
     }
-  }	  
+  };
 
   useEffect(() => {
     fetchCharacters();
-  })
-
+  }, []);
 
   return (
     <div>
@@ -86,9 +72,9 @@ function Landing() {
             If you receive a passing score you get a job offer.
           </p>
 
-
-            <button className="button" onClick={() => openCharacters()}>Choose your character</button>
-
+          <button className="button" onClick={() => openCharacters()}>
+            Choose your character
+          </button>
         </div>
       </GridWrapper>
     </div>
