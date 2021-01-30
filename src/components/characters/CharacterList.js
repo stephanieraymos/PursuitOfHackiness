@@ -1,4 +1,5 @@
 import React from 'react';
+import characters from './data';
 
 const List = ({ characters }) => {
   return (
