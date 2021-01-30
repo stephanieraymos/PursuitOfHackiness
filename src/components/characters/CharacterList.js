@@ -1,7 +1,9 @@
 import React from 'react';
 import characters from './data';
 
-const List = ({ characters }) => {
+const List = () => {
+  console.log(characters);
+
   return (
     <>
     <h1>Character List</h1>
