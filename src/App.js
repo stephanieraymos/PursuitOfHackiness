@@ -6,6 +6,7 @@ import Landing from "./components/Landing";
 import Home from "./components/Home";
 import Bootcamp from "./components/Bootcamp";
 import Career from "./components/Career";
+import Character from "./components/characters/Character";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/Home" component={Home} />
           <Route path="/Bootcamp" component={Bootcamp} />
           <Route path="/Career" component={Career} />
+          <Route path="/Characters" component={Character} />
         </Switch>
       </Router>
       <GlobalStyles />

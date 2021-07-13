@@ -72,9 +72,9 @@ function Landing() {
             If you receive a passing score you get a job offer.
           </p>
 
-          <button className="button" onClick={() => openCharacters()}>
+          <a href="/Characters"><button className="button" onClick={() => openCharacters()}>
             Choose your character
-          </button>
+          </button></a>
         </div>
       </GridWrapper>
     </div>

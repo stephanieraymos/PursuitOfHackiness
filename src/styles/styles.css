@@ -25,3 +25,19 @@
   padding: 8px;
   color: black;
 }
+.center-text {
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+.character-small {
+  width: 175px;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
