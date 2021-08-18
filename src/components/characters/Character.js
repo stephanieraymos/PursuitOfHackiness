@@ -26,7 +26,7 @@ function Character() {
       </section> */}
         <h1 className="center-text p-top">Characters</h1>
         <div className="container character-cont">
-          <div>
+          <div className="single-character-cont">
             <p className="center-text">Captain America</p>
             <img
               src="/img/superhero.png"
@@ -34,7 +34,7 @@ function Character() {
               className="character-small"
             />
           </div>
-          <div>
+          <div className="single-character-cont">
             <p className="center-text">Pencil-man</p>
             <img
               src="/img/pencil.png"
@@ -42,7 +42,7 @@ function Character() {
               className="character-small"
             />
           </div>
-          <div>
+          <div className="single-character-cont">
             <p className="center-text">Ninja-man</p>
             <img
               src="/img/ninja.png"
@@ -50,7 +50,7 @@ function Character() {
               className="character-small"
             />
           </div>
-          <div>
+          <div className="single-character-cont">
             <p className="center-text">Hippie-man</p>
             <img
               src="/img/native-american.png"
@@ -58,7 +58,7 @@ function Character() {
               className="character-small"
             />
           </div>
-          <div>
+          <div className="single-character-cont">
             <p className="center-text">Woke-man</p>
             <img
               src="/img/mythical-creature.png"
@@ -66,7 +66,7 @@ function Character() {
               className="character-small"
             />
           </div>
-          <div>
+          <div className="single-character-cont">
             <p className="center-text">Ghost-man</p>
             <img
               src="/img/ghost.png"
@@ -74,7 +74,7 @@ function Character() {
               className="character-small"
             />
           </div>
-          <div>
+          <div className="single-character-cont">
             <p className="center-text">Dragon-man</p>
             <img
               src="/img/dragon.png"
@@ -82,7 +82,7 @@ function Character() {
               className="character-small"
             />
           </div>
-          <div>
+          <div className="single-character-cont">
             <p className="center-text">Man</p>
             <img
               src="/img/boy.png"
@@ -90,7 +90,7 @@ function Character() {
               className="character-small"
             />
           </div>
-          <div>
+          <div className="single-character-cont">
             <p className="center-text">Wizard-man</p>
             <img
               src="/img/wizard.png"
@@ -98,7 +98,7 @@ function Character() {
               className="character-small"
             />
           </div>
-          <div>
+          <div className="single-character-cont">
             <p className="center-text">Wo-man</p>
             <img
               src="/img/woman.png"

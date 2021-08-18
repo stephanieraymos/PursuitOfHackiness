@@ -44,3 +44,8 @@
 .character-cont {
   flex-wrap: wrap;
 }
+.single-character-cont {
+  background-color: rgb(204, 233, 210);
+  margin: .5em;
+  border-radius: 20px;
+}
