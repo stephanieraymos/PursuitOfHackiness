@@ -25,7 +25,7 @@ function Character() {
         <button onClick={() => setCharacters([characters.id])}>Select this character</button>
       </section> */}
         <h1 className="center-text p-top">Characters</h1>
-        <div className="container">
+        <div className="container character-cont">
           <div>
             <p className="center-text">Captain America</p>
             <img
