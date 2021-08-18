@@ -16,6 +16,9 @@ function Character() {
   //   return img;
   // });
 
+  // Create onclick for when character is clicked on to load a confirmation
+  // If confirmed, go to next page in flow
+
   return (
     <>
       <main>
@@ -24,6 +27,7 @@ function Character() {
         <List characters={characters} />
         <button onClick={() => setCharacters([characters.id])}>Select this character</button>
       </section> */}
+
         <h1 className="center-text p-top">Characters</h1>
         <div className="container character-cont">
           <div className="single-character-cont">
