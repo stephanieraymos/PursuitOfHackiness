@@ -16,8 +16,10 @@ function Character() {
   //   return img;
   // });
 
+  const chooseCharacter = () => {
   // Create onclick for when character is clicked on to load a confirmation
   // If confirmed, go to next page in flow
+  }
 
   return (
     <>
