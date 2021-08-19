@@ -13,13 +13,15 @@ function App() {
     <>
       <Router>
         <Navigation />
-        <Landing />
+        {/* <Landing /> */}
         <Switch>
-          <Route path="/Landing" component={Landing} />
+          {/* <Route path="/Landing" component={Landing} /> */}
           <Route exact path="/Home" component={Home} />
           <Route path="/Bootcamp" component={Bootcamp} />
           <Route path="/Career" component={Career} />
           <Route path="/Characters" component={Character} />
+          <Route path="/" component={Landing} />
+
         </Switch>
       </Router>
       <GlobalStyles />
